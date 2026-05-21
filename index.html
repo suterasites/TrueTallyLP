@@ -159,7 +159,7 @@
       border-radius: 999px;
       padding: 0.6rem 0.9rem 0.6rem 1.6rem;
       display: flex; align-items: center; justify-content: space-between;
-      box-shadow: 0 4px 18px rgba(184,101,74,0.18);
+      box-shadow: 0 6px 22px rgba(184,101,74,0.30), 0 2px 6px rgba(15,34,54,0.08);
     }
     .header-inner { display: contents; }
     .logo-wrap { display: flex; align-items: center; gap: 0.65rem; color: var(--cream); }
@@ -394,7 +394,8 @@
       overflow: hidden;
       box-shadow: 0 4px 16px rgba(184,101,74,0.06);
     }
-    .process-card-img { aspect-ratio: 4/3; overflow: hidden; background: var(--cream); }
+    .process-card-img { aspect-ratio: 16/9; overflow: hidden; background: var(--cream); }
+    @media (min-width: 640px) { .process-card-img { aspect-ratio: 4/3; } }
     .process-card-img img { width: 100%; height: 100%; object-fit: cover; display: block; }
     .process-card-body { padding: 1.4rem 1.5rem 1.6rem; }
     .step-num {
@@ -413,7 +414,9 @@
       color: #fff;
       position: relative;
       overflow: hidden;
+      padding-top: 2.5rem; padding-bottom: 2.5rem;
     }
+    @media (min-width: 640px) { .final-cta { padding-top: 5rem; padding-bottom: 5rem; } }
     .final-cta::after {
       content: ''; position: absolute; inset: 0;
       background-image: radial-gradient(circle at 85% 50%, rgba(253,240,230,0.10) 0, transparent 45%);
@@ -968,11 +971,12 @@
       </div>
 
       <div class="footer-links">
-        <a href="#top">Home</a>
-        <a href="#services">All Services</a>
+        <a href="#about">About us</a>
+        <a href="#services">Services</a>
         <a href="#difference">Why us</a>
+        <a href="#reviews">Testimonials</a>
         <a href="#contact">Contact</a>
-        <a href="#contact">Book a Free Call &rarr;</a>
+        <a href="#quick-chat">Book a Free Call &rarr;</a>
       </div>
 
       <p class="footer-bottom">&copy; <span id="year"></span> True Tally Bookkeeping. Registered BAS Agent. All prices exclude GST.</p>
