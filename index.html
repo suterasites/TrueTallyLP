@@ -646,7 +646,7 @@
             <input id="ft-email" name="email" type="email" required autocomplete="email" placeholder="you@yourpractice.com.au" class="quote-input">
           </div>
 
-          <div class="form-field" style="margin-bottom: 0;">
+          <div class="form-field">
             <label for="ft-type">Practice type <span class="req">*</span></label>
             <select id="ft-type" name="practice_type" required class="quote-input">
               <option value="" disabled selected>Select one</option>
@@ -658,6 +658,11 @@
               <option>Naturopathy / Holistic Health</option>
               <option>Other allied health</option>
             </select>
+          </div>
+
+          <div class="form-field" style="margin-bottom: 0;">
+            <label for="ft-message">What's on your mind? <span class="opt">(optional)</span></label>
+            <textarea id="ft-message" name="message" rows="3" placeholder="e.g. BAS is behind, need help with NDIS classification, switching from a generalist bookkeeper..." class="quote-input"></textarea>
           </div>
 
           <button type="submit" class="btn btn-primary" style="margin-top: 1.25rem; width: 100%;">Request My Free Audit</button>
