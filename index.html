@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Bookkeeping for Geelong Allied Health Practices | True Tally</title>
-  <meta name="description" content="Stop chasing Medicare batches. Geelong bookkeeper for physio, OT and speech pathology practices - Halaxy, Splose, NDIS, BAS handled by a registered BAS Agent. Book a free 30-min audit.">
+  <meta name="description" content="Stop chasing Medicare batches. Geelong bookkeeper for physio, OT and speech pathology practices - Halaxy, Splose, NDIS, BAS handled by a registered BAS Agent. Book a free 30-min discovery call.">
   <meta name="keywords" content="Geelong bookkeeper, allied health bookkeeping Geelong, physiotherapy bookkeeping, Halaxy bookkeeping, Splose bookkeeping, NDIS bookkeeping, BAS agent allied health, Medicare reconciliation">
   <meta name="robots" content="index, follow">
   <meta name="geo.region" content="AU-VIC">
@@ -91,7 +91,7 @@
           { "@type": "Question", "name": "Can you handle payroll for a mix of employees and contractors?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. Allied health practices often have employed practitioners, casual support staff and independent contractors. We handle award interpretation under the Health Professionals and Support Services Award, STP reporting, superannuation and leave liability tracking." }},
           { "@type": "Question", "name": "Do you work with NDIS-funded services?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. We work with practices delivering NDIS-funded services, including those using Splose for plan management. We set up the right income categories in Xero and correctly classify plan-managed, agency-managed and self-managed clients." }},
           { "@type": "Question", "name": "Do you work remotely, or do I need to be based in Geelong?", "acceptedAnswer": { "@type": "Answer", "text": "We work with practices across Victoria and New South Wales remotely. All bookkeeping is handled digitally via Xero, Halaxy or Splose integrations and secure file sharing." }},
-          { "@type": "Question", "name": "How much does it cost?", "acceptedAnswer": { "@type": "Answer", "text": "We charge a fixed monthly fee scoped to your practice, based on transaction volume, income streams, payroll headcount and BAS obligations. No hourly rates, no surprise invoices. We'll give you a clear quote after your free audit call." }}
+          { "@type": "Question", "name": "How much does it cost?", "acceptedAnswer": { "@type": "Answer", "text": "We charge a fixed monthly fee scoped to your practice, based on transaction volume, income streams, payroll headcount and BAS obligations. No hourly rates, no surprise invoices. We'll give you a clear quote after your free discovery call." }}
         ]
       }
     ]
@@ -432,6 +432,14 @@
     .final-cta .btn-outline-light:hover { background: var(--cream); color: var(--terracotta-dark); border-color: var(--cream); }
     .final-cta-note { margin-top: 1.8rem; font-size: 0.92rem; color: rgba(255,255,255,0.82); }
 
+    /* PRICE FLOOR */
+    .price-floor {
+      margin-top: 1.1rem; font-size: 0.88rem;
+      color: var(--terracotta-dark); font-style: italic;
+      max-width: 36rem; margin-left: auto; margin-right: auto;
+    }
+    .price-floor strong { font-style: normal; }
+
     /* QUICK CHAT FORM */
     .quote-form-card {
       background: #fff; border: 1px solid var(--ink-line); border-radius: 14px;
@@ -575,7 +583,7 @@
           <p class="hero-region">Geelong-based, servicing physio, OT and speech practices across VIC &amp; NSW.</p>
 
           <div class="hero-ctas">
-            <a href="#quick-chat" class="btn btn-primary">Get My Free Practice Audit</a>
+            <a href="#quick-chat" class="btn btn-primary">Book My Free Discovery Call</a>
             <a href="#process" class="btn btn-outline-light">How It Works</a>
           </div>
 
@@ -616,9 +624,10 @@
     <section id="quick-chat" class="block-tight bg-bg block">
       <div class="container">
         <div class="section-head center" style="margin-bottom: 2rem;">
-          <span class="chip" style="margin-bottom: 1rem;">Free 30-Min Audit</span>
-          <h2>Book your free practice audit.</h2>
-          <p>Tell us about your practice. We'll call back to walk through where your setup is exposed and what cleaning it up would look like, no sales pressure.</p>
+          <span class="chip" style="margin-bottom: 1rem;">Free 30-Min Discovery Call</span>
+          <h2>Book your free discovery call.</h2>
+          <p>Tell us about your practice. We'll call back to find out how you're set up, what's slipping through, and whether we're a fit. No sales pressure.</p>
+          <p class="price-floor">Our fixed monthly fees start from $<strong>____</strong>/month. Practices smaller than this are usually better served by a generalist bookkeeper.</p>
         </div>
 
         <!-- TODO: replace REPLACE_WITH_TRUETALLY_ENDPOINT with True Tally's Formspree endpoint once provisioned -->
@@ -665,11 +674,11 @@
             <textarea id="ft-message" name="message" rows="3" placeholder="e.g. BAS is behind, need help with NDIS classification, switching from a generalist bookkeeper..." class="quote-input"></textarea>
           </div>
 
-          <button type="submit" class="btn btn-primary" style="margin-top: 1.25rem; width: 100%;">Request My Free Audit</button>
+          <button type="submit" class="btn btn-primary" style="margin-top: 1.25rem; width: 100%;">Request My Free Discovery Call</button>
 
           <p class="form-privacy">
             <svg fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/></svg>
-            Free, no-obligation audit call. Your details stay private.
+            Free, no-obligation discovery call. Your details stay private.
           </p>
         </form>
       </div>
@@ -712,7 +721,8 @@
             <span class="chip" style="margin-bottom: 1rem;">Meet your bookkeeper</span>
             <h2>Bookkeeping that actually understands your practice.</h2>
             <p>Allied health practices deserve a bookkeeper who actually understands Medicare, Halaxy and a mixed payroll, not a generalist who only shows up at BAS time.</p>
-            <p>That's why True Tally takes on a small number of clients, learns how your practice actually runs, and stays in regular contact, so the financial side of your business makes sense year-round.</p>
+            <p>That's why True Tally takes on a small number of clients each quarter, learns how your practice actually runs, and stays in regular contact, so the financial side of your business makes sense year-round.</p>
+            <p>We're not the cheapest bookkeeper in Geelong, and we're not trying to be. True Tally is built for practice owners who'd rather pay to have it done right than chase savings on their books.</p>
             <p class="meet-credentials">
               <strong>Registered BAS Agent</strong><span class="sep">·</span><strong>Certified Xero Advisor</strong><span class="sep">·</span><strong>Halaxy &amp; Splose specialist</strong>
             </p>
@@ -862,8 +872,8 @@
             </div>
             <div class="process-card-body">
               <div class="step-num">01</div>
-              <h3>Free 30-minute audit call</h3>
-              <p>We review your current setup, identify compliance gaps, and work out what your practice actually needs. No obligation, no sales pressure.</p>
+              <h3>Free 30-minute discovery call</h3>
+              <p>We learn how your practice is set up today, what's slipping through, and whether True Tally is a fit. No obligation, no sales pressure.</p>
             </div>
           </div>
           <div class="process-card">
@@ -908,9 +918,9 @@
     <section id="contact" class="block final-cta">
       <div class="container">
         <h2>Ready to take the books off your plate?</h2>
-        <p>Book a free 30-minute audit call. We'll review your current setup, flag any BAS or compliance exposure, and you'll know whether we're a fit, no sales pressure.</p>
+        <p>Book a free 30-minute discovery call. We'll learn how your practice is set up, surface what's most worth a closer look, and you'll know whether we're a fit. No sales pressure.</p>
         <div class="final-cta-buttons">
-          <a href="#quick-chat" class="btn btn-dark">Get My Free Audit</a>
+          <a href="#quick-chat" class="btn btn-dark">Book My Free Discovery Call</a>
           <a href="tel:+61421132796" data-conversion="call" class="btn btn-outline-light">Call 0421 132 796</a>
         </div>
         <p class="final-cta-note">Servicing physio, OT and speech therapy practices across VIC &amp; NSW.</p>
@@ -953,7 +963,7 @@
             </details>
             <details class="faq-item">
               <summary>How much does it cost? <span class="faq-icon">+</span></summary>
-              <p>We charge a fixed monthly fee scoped to your practice, based on transaction volume, income streams, payroll headcount and BAS obligations. No hourly rates, no surprise invoices. We'll give you a clear quote after your free audit call.</p>
+              <p>We charge a fixed monthly fee scoped to your practice, based on transaction volume, income streams, payroll headcount and BAS obligations. No hourly rates, no surprise invoices. We'll give you a clear quote after your free discovery call.</p>
             </details>
           </div>
         </div>
@@ -996,7 +1006,7 @@
     </a>
     <a href="#quick-chat">
       <svg fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"/></svg>
-      Free Audit
+      Discovery Call
     </a>
   </div>
 
