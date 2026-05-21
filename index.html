@@ -248,12 +248,25 @@
       background: var(--cream); color: var(--terracotta-dark);
       border-top: 1px solid var(--ink-line);
       border-bottom: 1px solid var(--ink-line);
-      padding: 2rem 0;
+      padding: 2.5rem 0;
     }
-    .logo-strip-inner { display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: 1rem 2.25rem; }
-    .logo-strip-label { font-size: 0.78rem; text-transform: uppercase; letter-spacing: 0.14em; color: var(--terracotta); font-weight: 700; }
-    .logo-strip-item { font-family: 'Fraunces', serif; font-size: 1.2rem; color: var(--terracotta-dark); font-weight: 500; }
-    .logo-strip-divider { color: rgba(184,101,74,0.35); }
+    .logo-strip-label {
+      font-size: 0.74rem; text-transform: uppercase; letter-spacing: 0.18em;
+      color: var(--terracotta); font-weight: 700; text-align: center;
+      margin-bottom: 1.5rem;
+    }
+    .logo-strip-logos {
+      display: flex; flex-wrap: wrap; justify-content: center; align-items: center;
+      gap: 2rem 3rem;
+    }
+    @media (min-width: 640px) { .logo-strip-logos { gap: 2.5rem 4rem; } }
+    .partner-logo { display: block; width: auto; opacity: 0.95; }
+    .partner-logo--wordmark { height: 30px; }
+    .partner-logo--icon { height: 46px; }
+    .logo-strip-secondary {
+      text-align: center; margin-top: 1.75rem;
+      font-size: 0.82rem; color: rgba(184,101,74,0.72); font-weight: 500;
+    }
 
     /* GENERIC SECTION */
     section.block { padding: 3.5rem 0; }
@@ -559,23 +572,15 @@
 
     <!-- LOGO STRIP -->
     <section class="logo-strip">
-      <div class="container logo-strip-inner">
-        <span class="logo-strip-label">We work with</span>
-        <span class="logo-strip-item">Halaxy</span>
-        <span class="logo-strip-divider">·</span>
-        <span class="logo-strip-item">Splose</span>
-        <span class="logo-strip-divider">·</span>
-        <span class="logo-strip-item">Xero</span>
-        <span class="logo-strip-divider">·</span>
-        <span class="logo-strip-item">MYOB</span>
-        <span class="logo-strip-divider">·</span>
-        <span class="logo-strip-item">Medicare</span>
-        <span class="logo-strip-divider">·</span>
-        <span class="logo-strip-item">HiCAPS</span>
-        <span class="logo-strip-divider">·</span>
-        <span class="logo-strip-item">NDIS</span>
-        <span class="logo-strip-divider">·</span>
-        <span class="logo-strip-item" style="font-family: 'Inter', sans-serif; font-size: 0.92rem; color: rgba(184,101,74,0.68); font-weight: 500;">Medibank · BUPA · HCF · NIB</span>
+      <div class="container">
+        <p class="logo-strip-label">We work with</p>
+        <div class="logo-strip-logos">
+          <img src="Assets/logos/halaxy.svg" alt="Halaxy" class="partner-logo partner-logo--wordmark" loading="lazy" decoding="async">
+          <img src="Assets/logos/splose.svg" alt="Splose" class="partner-logo partner-logo--wordmark" loading="lazy" decoding="async">
+          <img src="Assets/logos/xero.svg" alt="Xero" class="partner-logo partner-logo--icon" loading="lazy" decoding="async">
+          <img src="Assets/logos/myob.svg" alt="MYOB" class="partner-logo partner-logo--icon" loading="lazy" decoding="async">
+        </div>
+        <p class="logo-strip-secondary">Also handles claims and payroll for Medicare · HiCAPS · NDIS · Medibank · BUPA · HCF · NIB</p>
       </div>
     </section>
 
