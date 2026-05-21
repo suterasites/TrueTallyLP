@@ -3,19 +3,27 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Bookkeeping for Allied Health Practices | True Tally</title>
-  <meta name="description" content="Bookkeeping for physio, OT and speech pathology practices. Medicare, Halaxy, Splose, NDIS and BAS handled by a bookkeeper who understands how your practice gets paid. VIC & NSW.">
-  <meta name="keywords" content="allied health bookkeeping, physiotherapy bookkeeping, Halaxy bookkeeping, Splose bookkeeping, NDIS bookkeeping, BAS agent allied health, Medicare reconciliation">
+  <title>Bookkeeping for Geelong Allied Health Practices | True Tally</title>
+  <meta name="description" content="Bookkeeping for physio, OT and speech pathology practices in Geelong and across Victoria. Medicare, Halaxy, Splose, NDIS and BAS handled by a registered BAS Agent.">
+  <meta name="keywords" content="Geelong bookkeeper, allied health bookkeeping Geelong, physiotherapy bookkeeping, Halaxy bookkeeping, Splose bookkeeping, NDIS bookkeeping, BAS agent allied health, Medicare reconciliation">
   <meta name="robots" content="index, follow">
   <meta name="geo.region" content="AU-VIC">
-  <meta name="geo.placename" content="Bellarine Peninsula">
+  <meta name="geo.placename" content="Geelong">
   <link rel="canonical" href="https://lp.truetally.com.au/">
 
-  <meta property="og:title" content="Bookkeeping for Allied Health Practices | True Tally">
-  <meta property="og:description" content="Medicare, Halaxy, Splose, NDIS and BAS handled by a bookkeeper who understands how your practice gets paid. Servicing VIC & NSW.">
+  <link rel="icon" type="image/png" sizes="32x32" href="Assets/favicon-32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="Assets/favicon-180.png">
+  <meta name="theme-color" content="#b8654a">
+  <link rel="preload" as="image" href="Assets/hero-image.avif" type="image/avif" fetchpriority="high">
+
+  <meta property="og:title" content="Bookkeeping for Geelong Allied Health Practices | True Tally">
+  <meta property="og:description" content="Medicare, Halaxy, Splose, NDIS and BAS handled by a registered BAS Agent. Geelong-based, servicing practices across VIC & NSW.">
   <meta property="og:type" content="website">
   <meta property="og:locale" content="en_AU">
   <meta property="og:url" content="https://lp.truetally.com.au/">
+  <meta property="og:image" content="https://lp.truetally.com.au/Assets/og-image.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="https://lp.truetally.com.au/Assets/og-image.jpg">
 
   <!-- Google tag (gtag.js) - loaded synchronously so GCLID is captured into _gcl_aw cookie before any form/call interaction. -->
   <!-- TODO: replace AW-XXXXXXXXX with True Tally Google Ads conversion ID and G-XXXXXXXXXX with GA4 measurement ID once admin invite is accepted. -->
@@ -41,10 +49,18 @@
         "email": "info@truetally.com.au",
         "url": "https://truetally.com.au/",
         "areaServed": [
+          { "@type": "City", "name": "Geelong" },
+          { "@type": "Place", "name": "Bellarine Peninsula" },
+          { "@type": "City", "name": "Melbourne" },
           { "@type": "State", "name": "Victoria" },
-          { "@type": "State", "name": "New South Wales" },
-          { "@type": "Place", "name": "Bellarine Peninsula" }
+          { "@type": "State", "name": "New South Wales" }
         ],
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Geelong",
+          "addressRegion": "VIC",
+          "addressCountry": "AU"
+        },
         "priceRange": "$$"
       },
       {
@@ -548,9 +564,9 @@
             <span class="dot"></span>
             Physiotherapy · Occupational Therapy · Speech Pathology
           </div>
-          <h1>Bookkeeping Built for <span style="color: var(--terracotta);">Allied Health Practices.</span></h1>
-          <p class="hero-sub">Medicare reconciliations, Halaxy and Splose, mixed payroll, NDIS, BAS compliance, handled by a bookkeeper who actually understands how your practice gets paid.</p>
-          <p class="hero-region">Servicing practices across Victoria and New South Wales.</p>
+          <h1>Bookkeeping Built for <span style="color: var(--terracotta);">Geelong Allied Health Practices.</span></h1>
+          <p class="hero-sub">Medicare reconciliations, Halaxy and Splose, mixed payroll, NDIS, BAS compliance, handled by a registered BAS Agent who actually understands how your practice gets paid.</p>
+          <p class="hero-region">Geelong-based, servicing practices across Victoria and New South Wales.</p>
 
           <div class="hero-ctas">
             <a href="#quick-chat" class="btn btn-primary">Book a Free 30-Min Chat</a>
@@ -567,7 +583,10 @@
 
         <div>
           <div class="hero-photo">
-            <img src="Assets/hero-image-with-borders.png" alt="Tiffany, True Tally Bookkeeping founder, working on her laptop in a tropical garden setting" width="700" height="900" fetchpriority="high" decoding="async">
+            <picture>
+              <source srcset="Assets/hero-image.avif" type="image/avif">
+              <img src="Assets/hero-image.jpg" alt="Tiffany, True Tally Bookkeeping founder, working on her laptop in a tropical garden setting" width="511" height="681" fetchpriority="high" decoding="async">
+            </picture>
           </div>
         </div>
       </div>
@@ -621,29 +640,18 @@
             <input id="ft-email" name="email" type="email" required autocomplete="email" placeholder="you@yourpractice.com.au" class="quote-input">
           </div>
 
-          <div class="form-row two-col">
-            <div class="form-field">
-              <label for="ft-practice">Practice name <span class="opt">(optional)</span></label>
-              <input id="ft-practice" name="practice_name" type="text" placeholder="e.g. Bellarine Physio Co." class="quote-input">
-            </div>
-            <div class="form-field">
-              <label for="ft-type">Practice type <span class="req">*</span></label>
-              <select id="ft-type" name="practice_type" required class="quote-input">
-                <option value="" disabled selected>Select one</option>
-                <option>Physiotherapy</option>
-                <option>Occupational Therapy</option>
-                <option>Speech Pathology</option>
-                <option>Optometry</option>
-                <option>Dental</option>
-                <option>Naturopathy / Holistic Health</option>
-                <option>Other allied health</option>
-              </select>
-            </div>
-          </div>
-
           <div class="form-field" style="margin-bottom: 0;">
-            <label for="ft-message">What would you like help with? <span class="opt">(optional)</span></label>
-            <textarea id="ft-message" name="message" rows="3" placeholder="e.g. Behind on BAS, need help reconciling Halaxy, looking to switch from a generalist bookkeeper..." class="quote-input"></textarea>
+            <label for="ft-type">Practice type <span class="req">*</span></label>
+            <select id="ft-type" name="practice_type" required class="quote-input">
+              <option value="" disabled selected>Select one</option>
+              <option>Physiotherapy</option>
+              <option>Occupational Therapy</option>
+              <option>Speech Pathology</option>
+              <option>Optometry</option>
+              <option>Dental</option>
+              <option>Naturopathy / Holistic Health</option>
+              <option>Other allied health</option>
+            </select>
           </div>
 
           <button type="submit" class="btn btn-primary" style="margin-top: 1.25rem; width: 100%;">Request My Free Chat</button>
@@ -950,7 +958,7 @@
       <div class="footer-top">
         <div class="footer-brand">
           <h4>True Tally Bookkeeping</h4>
-          <p>Bellarine Peninsula, Victoria · Servicing VIC &amp; NSW</p>
+          <p>Geelong, Victoria · Bellarine Peninsula · Servicing VIC &amp; NSW</p>
         </div>
         <div class="footer-contact">
           <a href="tel:+61421132796" data-conversion="call">&#128222; 0421 132 796</a>
