@@ -26,13 +26,13 @@
   <meta name="twitter:image" content="https://lp.truetally.com.au/Assets/og-image.jpg">
 
   <!-- Google tag (gtag.js) - loaded synchronously so GCLID is captured into _gcl_aw cookie before any form/call interaction. -->
-  <!-- TODO: replace AW-XXXXXXXXX with True Tally Google Ads conversion ID and G-XXXXXXXXXX with GA4 measurement ID once admin invite is accepted. -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=AW-XXXXXXXXX"></script>
+  <!-- Google Ads conversion ID AW-17365131653 wired 2026-05-22. CALL_LABEL and FORM_LABEL still pending - create the two conversion actions in Google Ads (Form Lead + Phone Call Lead) and paste the per-action labels here. GA4 (G-XXXXXXXXXX) optional - leave as-is unless wiring GA4 separately. -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=AW-17365131653"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
-    gtag('config', 'AW-XXXXXXXXX');
+    gtag('config', 'AW-17365131653');
     gtag('config', 'G-XXXXXXXXXX');
   </script>
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
@@ -1036,12 +1036,12 @@
     })();
 
     // Phone Call Lead conversion: fires when a tel: link with data-conversion="call" is clicked.
-    // TODO: replace AW-XXXXXXXXX/CALL_LABEL with True Tally Ads conversion ID and call conversion label.
+    // TODO: replace AW-17365131653/CALL_LABEL with True Tally Ads conversion ID and call conversion label.
     document.querySelectorAll('[data-conversion="call"]').forEach(function(el) {
       el.addEventListener('click', function() {
         if (typeof gtag === 'function') {
           gtag('event', 'conversion', {
-            'send_to': 'AW-XXXXXXXXX/CALL_LABEL',
+            'send_to': 'AW-17365131653/CALL_LABEL',
             'value': 300.0,
             'currency': 'AUD'
           });
@@ -1050,12 +1050,12 @@
     });
 
     // Form Lead conversion: fires on form submit (Formspree redirect handles thank-you).
-    // TODO: replace AW-XXXXXXXXX/FORM_LABEL with True Tally Ads conversion ID and form conversion label.
+    // TODO: replace AW-17365131653/FORM_LABEL with True Tally Ads conversion ID and form conversion label.
     document.querySelectorAll('form[data-track-gclid]').forEach(function(form) {
       form.addEventListener('submit', function() {
         if (typeof gtag === 'function') {
           gtag('event', 'conversion', {
-            'send_to': 'AW-XXXXXXXXX/FORM_LABEL',
+            'send_to': 'AW-17365131653/FORM_LABEL',
             'value': 300.0,
             'currency': 'AUD'
           });
