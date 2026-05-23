@@ -1050,12 +1050,12 @@
     });
 
     // Form Lead conversion: fires on form submit (Formspree redirect handles thank-you).
-    // TODO: replace AW-17365131653/FORM_LABEL with True Tally Ads conversion ID and form conversion label.
+    // Form Lead conversion label wired 2026-05-23.
     document.querySelectorAll('form[data-track-gclid]').forEach(function(form) {
       form.addEventListener('submit', function() {
         if (typeof gtag === 'function') {
           gtag('event', 'conversion', {
-            'send_to': 'AW-17365131653/FORM_LABEL',
+            'send_to': 'AW-17365131653/FkJzCJeTk7IcEIXDq9hA',
             'value': 300.0,
             'currency': 'AUD'
           });
