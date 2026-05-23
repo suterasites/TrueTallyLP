@@ -26,7 +26,7 @@
   <meta name="twitter:image" content="https://lp.truetally.com.au/Assets/og-image.jpg">
 
   <!-- Google tag (gtag.js) - loaded synchronously so GCLID is captured into _gcl_aw cookie before any form/call interaction. -->
-  <!-- Google Ads conversion ID AW-17365131653 wired 2026-05-22. CALL_LABEL and FORM_LABEL still pending - create the two conversion actions in Google Ads (Form Lead + Phone Call Lead) and paste the per-action labels here. GA4 (G-XXXXXXXXXX) optional - leave as-is unless wiring GA4 separately. -->
+  <!-- Google Ads conversion ID AW-17365131653 wired 2026-05-22. Form Lead + Phone Call Lead conversion labels wired 2026-05-23. GA4 (G-XXXXXXXXXX) optional - leave as-is unless wiring GA4 separately. -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=AW-17365131653"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
@@ -1037,12 +1037,12 @@
     })();
 
     // Phone Call Lead conversion: fires when a tel: link with data-conversion="call" is clicked.
-    // TODO: replace AW-17365131653/CALL_LABEL with True Tally Ads conversion ID and call conversion label.
+    // Phone Call Lead conversion label wired 2026-05-23.
     document.querySelectorAll('[data-conversion="call"]').forEach(function(el) {
       el.addEventListener('click', function() {
         if (typeof gtag === 'function') {
           gtag('event', 'conversion', {
-            'send_to': 'AW-17365131653/CALL_LABEL',
+            'send_to': 'AW-17365131653/uAZ1CIiRk7IcEIXDq9hA',
             'value': 300.0,
             'currency': 'AUD'
           });
