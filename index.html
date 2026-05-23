@@ -1050,19 +1050,11 @@
       });
     });
 
-    // Form Lead conversion: fires on form submit (Formspree redirect handles thank-you).
-    // Form Lead conversion label wired 2026-05-23.
-    document.querySelectorAll('form[data-track-gclid]').forEach(function(form) {
-      form.addEventListener('submit', function() {
-        if (typeof gtag === 'function') {
-          gtag('event', 'conversion', {
-            'send_to': 'AW-17365131653/FkJzCJeTk7IcEIXDq9hA',
-            'value': 300.0,
-            'currency': 'AUD'
-          });
-        }
-      });
-    });
+    // Form Lead conversion: fires on thank-you.html page load (not here).
+    // Pattern change 2026-05-23 - Google's recommended pattern. Avoids race
+    // conditions (browser may navigate before gtag pings) and false positives
+    // (submit firing before Formspree validation). Thank-you page is the
+    // confirmed-success signal.
 
     // GCLID capture for offline conversion attribution.
     // Priority: ?gclid= URL param (current click) -> sessionStorage (stored on landing) -> _gcl_aw cookie (set by gtag.js).

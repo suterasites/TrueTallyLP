@@ -15,6 +15,22 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 
+  <!-- Google tag (gtag.js) - Form Lead conversion fires on this page load.
+       Formspree only redirects here on successful submission, so this only
+       counts real leads (no race conditions, no false positives). -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=AW-17365131653"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'AW-17365131653');
+    gtag('event', 'conversion', {
+      'send_to': 'AW-17365131653/FkJzCJeTk7IcEIXDq9hA',
+      'value': 300.0,
+      'currency': 'AUD'
+    });
+  </script>
+
   <style>
     *,*::before,*::after { box-sizing: border-box; }
     html, body { margin: 0; padding: 0; }
