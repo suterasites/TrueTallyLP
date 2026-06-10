@@ -1,0 +1,1092 @@
+<!DOCTYPE html>
+<html lang="en-AU" style="scroll-behavior:smooth;">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bookkeeping for Tradies | True Tally</title>
+  <meta name="description" content="Bookkeeping built for sole-trader tradies across Victoria. BAS, GST, super, subbies and chasing invoices, sorted. $300/mo ex BAS with unlimited Q&A calls. Book a free 30-min discovery call.">
+  <meta name="keywords" content="tradie bookkeeper, bookkeeping for tradies, builder bookkeeper, electrician bookkeeper, plumber bookkeeper, BAS for tradies, construction bookkeeping, subcontractor bookkeeping, Xero bookkeeper tradies, Geelong bookkeeper">
+  <meta name="robots" content="index, follow">
+  <meta name="geo.region" content="AU-VIC">
+  <meta name="geo.placename" content="Geelong">
+  <!-- TODO(James): tradie LP lives at lp.truetally.com.au/tradies/ inside the existing allied-health LP repo - no separate repo / Cloudflare project / CNAME needed. Assets shared from ../Assets/. -->
+  <link rel="canonical" href="https://lp.truetally.com.au/tradies/">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="../Assets/favicon-32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="../Assets/favicon-180.png">
+  <meta name="theme-color" content="#b8654a">
+  <link rel="preload" as="image" href="../Assets/hero-image.avif" type="image/avif" fetchpriority="high" media="(min-width: 1024px)">
+
+  <meta property="og:title" content="Bookkeeping for Tradies | True Tally">
+  <meta property="og:description" content="BAS, GST, super, subbies and chasing invoices, sorted. $300/mo ex BAS with unlimited Q&A calls. Geelong-based, servicing tradies across Victoria.">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="en_AU">
+  <meta property="og:url" content="https://lp.truetally.com.au/tradies/">
+  <meta property="og:image" content="https://lp.truetally.com.au/Assets/og-image.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="https://lp.truetally.com.au/Assets/og-image.jpg">
+
+  <!-- Google tag (gtag.js) - loaded synchronously so GCLID is captured into _gcl_aw cookie before any form/call interaction. -->
+  <!-- Same Google Ads account as allied-health LP: AW-17365131653. Form Lead + Phone Call Lead conversion labels shared across both campaigns in the account. -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=AW-17365131653"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'AW-17365131653');
+    gtag('config', 'G-XXXXXXXXXX');
+  </script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "AccountingService",
+        "@id": "https://truetally.com.au/#business",
+        "name": "True Tally Bookkeeping",
+        "telephone": "+61421132796",
+        "email": "info@truetally.com.au",
+        "url": "https://truetally.com.au/",
+        "areaServed": [
+          { "@type": "City", "name": "Geelong" },
+          { "@type": "City", "name": "Werribee" },
+          { "@type": "City", "name": "Melbourne" },
+          { "@type": "State", "name": "Victoria" }
+        ],
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Geelong",
+          "addressRegion": "VIC",
+          "addressCountry": "AU"
+        },
+        "priceRange": "$$"
+      },
+      {
+        "@type": "Service",
+        "serviceType": "Bookkeeping for Tradies and Sole Traders",
+        "provider": { "@id": "https://truetally.com.au/#business" },
+        "hasOfferCatalog": {
+          "@type": "OfferCatalog",
+          "name": "Tradie Bookkeeping Services",
+          "itemListElement": [
+            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "BAS & GST Lodgement" }},
+            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Invoicing & Chasing Payments" }},
+            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Payroll, STP & Superannuation" }},
+            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Subcontractors, PAYG & TPAR" }},
+            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Xero & MYOB Setup" }},
+            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Job Costing & Profit per Job" }},
+            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "EOFY Tax-Ready Books" }},
+            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Monthly Reporting & Unlimited Q&A" }}
+          ]
+        }
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          { "@type": "Question", "name": "Do I need to be based in Geelong?", "acceptedAnswer": { "@type": "Answer", "text": "No. We're Geelong-based but work with sole-trader tradies right across Victoria. Everything is handled digitally through Xero or MYOB and secure file sharing, with phone, text or video whenever it suits you on site." }},
+          { "@type": "Question", "name": "Do you handle subcontractors, PAYG and TPAR?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. We sort out whether your workers are subbies or employees, handle PAYG withholding and super, and lodge your Taxable Payments Annual Report (TPAR) so the ATO side of using subcontractors is covered." }},
+          { "@type": "Question", "name": "Can you do my BAS and chase my unpaid invoices?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. We lodge your BAS correctly, keep your GST clean across materials and labour, and stay on top of who owes you what so you're not doing it at 10pm. We can run invoice reminders so you get paid faster." }},
+          { "@type": "Question", "name": "What software do you use?", "acceptedAnswer": { "@type": "Answer", "text": "We work in Xero and MYOB, and we integrate with the job-management apps tradies actually use, ServiceM8, Tradify, AroFlo and simPRO, so your quotes, jobs and invoices flow through to your books without double handling." }},
+          { "@type": "Question", "name": "I've got a shoebox of receipts and I'm behind. Can you help?", "acceptedAnswer": { "@type": "Answer", "text": "That's most tradies when they come to us. We'll catch up your file, get everything reconciled and current, and put a simple system in place so you never fall behind again." }},
+          { "@type": "Question", "name": "How much does it cost?", "acceptedAnswer": { "@type": "Answer", "text": "Sole-trader tradies are typically $300 a month ex BAS, and that includes unlimited Q&A calls, ask us anything about your numbers, any time. We scope a fixed monthly fee to your business after a free discovery call. No hourly rates, no surprise invoices." }},
+          { "@type": "Question", "name": "Do you do my tax return too?", "acceptedAnswer": { "@type": "Answer", "text": "We handle your day-to-day bookkeeping and BAS as a registered BAS Agent, and get your books tax-ready so your accountant's job is quick and cheap. If you don't have an accountant we can point you to one." }}
+        ]
+      }
+    ]
+  }
+  </script>
+
+  <style>
+    *,*::before,*::after { box-sizing: border-box; }
+    html, body { margin: 0; padding: 0; }
+
+    :root {
+      --terracotta: #b8654a;
+      --terracotta-dark: #9d4f37;
+      --terracotta-soft: #fbe7d8;
+      --cream: #fdf0e6;
+      --cream-2: #fbe9d8;
+      --blue: #7ba9c0;
+      --blue-dark: #5d8ea8;
+      --blue-soft-bg: #e6eff4;
+      --ink: #3d3d3d;
+      --ink-soft: #5a5a5a;
+      --ink-muted: #8c8c8c;
+      --ink-bg: #fdf7f1;
+      --ink-line: #efe2d6;
+      --white: #ffffff;
+    }
+
+    body {
+      font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      color: var(--ink);
+      background: var(--white);
+      line-height: 1.65;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      overflow-x: hidden;
+    }
+
+    h1, h2, h3, h4 {
+      font-family: 'Fraunces', 'Source Serif Pro', Georgia, serif;
+      font-weight: 500;
+      letter-spacing: -0.005em;
+      line-height: 1.1;
+      margin: 0;
+      color: var(--ink);
+    }
+    p { margin: 0; }
+    a { color: inherit; text-decoration: none; }
+    img { display: block; max-width: 100%; height: auto; }
+
+    .container { max-width: 1140px; margin: 0 auto; padding: 0 2rem; }
+    @media (min-width: 640px) { .container { padding: 0 2.5rem; } }
+    @media (min-width: 1024px) { .container { padding: 0 2rem; } }
+
+    /* HEADER */
+    .site-header {
+      position: sticky; top: 0; z-index: 50;
+      padding: 1rem 0.75rem 0;
+      transition: transform 0.3s ease;
+      background: transparent;
+    }
+    @media (min-width: 640px) { .site-header { padding: 1.25rem 1rem 0; } }
+    .header-pill {
+      max-width: 1140px; margin: 0 auto;
+      background: var(--terracotta);
+      border-radius: 999px;
+      padding: 0.6rem 0.9rem 0.6rem 1.6rem;
+      display: flex; align-items: center; justify-content: space-between;
+      box-shadow: 0 6px 22px rgba(184,101,74,0.30), 0 2px 6px rgba(15,34,54,0.08);
+    }
+    .header-inner { display: contents; }
+    .logo-wrap { display: flex; align-items: center; gap: 0.65rem; color: var(--cream); }
+    .logo-mark {
+      width: 2.4rem; height: 2.4rem; border-radius: 50%;
+      background: var(--cream);
+      display: inline-flex; align-items: center; justify-content: center;
+      overflow: hidden; flex-shrink: 0;
+    }
+    .logo-mark img { width: 100%; height: 100%; object-fit: cover; }
+    .logo-text { display: inline; font-family: 'Fraunces', serif; font-size: 1rem; font-weight: 600; color: var(--cream); line-height: 1.05; }
+    @media (min-width: 640px) { .logo-text { font-size: 1.2rem; } }
+    .logo-text small { display: none; font-size: 0.68rem; font-family: 'Inter', sans-serif; font-weight: 500; letter-spacing: 0.12em; text-transform: uppercase; color: rgba(253,240,230,0.78); margin-top: -2px; }
+    @media (min-width: 640px) { .logo-text small { display: block; } }
+
+    .nav-links { display: none; align-items: center; gap: 1.5rem; }
+    @media (min-width: 900px) { .nav-links { display: flex; } }
+    .nav-links a { color: var(--cream); font-size: 0.92rem; font-weight: 500; transition: color 0.15s; }
+    .nav-links a:hover { color: #fff; }
+
+    .header-cta { display: flex; align-items: center; gap: 0.5rem; }
+
+    /* BUTTONS */
+    .btn {
+      display: inline-flex; align-items: center; justify-content: center; gap: 0.5rem;
+      padding: 0.95rem 1.7rem;
+      border-radius: 8px; font-weight: 600; font-size: 0.98rem;
+      transition: transform 0.15s ease, background-color 0.2s ease, color 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
+      border: none; cursor: pointer; font-family: inherit;
+    }
+    .btn:hover { transform: translateY(-1px); }
+    .btn-primary { background: var(--blue); color: #fff; box-shadow: 0 6px 18px rgba(123,169,192,0.32); }
+    .btn-primary:hover { background: var(--blue-dark); box-shadow: 0 10px 24px rgba(93,142,168,0.40); }
+    .btn-outline-light { border: 1.5px solid var(--blue); color: var(--blue); background: transparent; }
+    .btn-outline-light:hover { background: var(--blue); color: #fff; }
+    .btn-outline-dark { border: 1.5px solid var(--blue); color: var(--blue); background: transparent; }
+    .btn-outline-dark:hover { background: var(--blue); color: #fff; }
+    .btn-dark { background: var(--blue); color: #fff; }
+    .btn-dark:hover { background: var(--blue-dark); }
+    .btn-sm { padding: 0.55rem 1.25rem; font-size: 0.88rem; border-radius: 999px; }
+
+    /* CHIPS */
+    .chip {
+      display: inline-flex; align-items: center; gap: 0.4rem;
+      padding: 0.4rem 0.9rem; border-radius: 999px;
+      background: var(--terracotta-soft); color: var(--terracotta-dark);
+      font-size: 0.74rem; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase;
+      font-family: 'Inter', sans-serif;
+    }
+    .chip-on-dark { background: rgba(253,240,230,0.18); color: var(--cream); }
+
+    /* HERO */
+    .hero {
+      position: relative;
+      background: #fff;
+      color: var(--ink);
+      overflow: hidden;
+    }
+    .hero::before {
+      content: ''; position: absolute; inset: 0;
+      background-image: radial-gradient(circle at 90% 15%, rgba(184,101,74,0.06) 0, transparent 40%),
+                        radial-gradient(circle at 5% 85%, rgba(123,169,192,0.06) 0, transparent 40%);
+      pointer-events: none;
+    }
+    .hero-inner {
+      position: relative; z-index: 1;
+      padding-top: 3rem; padding-bottom: 3.5rem;
+      display: grid; gap: 2.5rem;
+    }
+    @media (min-width: 1024px) {
+      .hero-inner { grid-template-columns: 7fr 5fr; gap: 3.5rem; align-items: center; padding-top: 4.5rem; padding-bottom: 5.5rem; }
+    }
+    .hero-eyebrow {
+      display: inline-flex; align-items: center; gap: 0.5rem;
+      padding: 0.4rem 0.9rem; border-radius: 999px;
+      background: var(--terracotta-soft); border: 1px solid rgba(184,101,74,0.18);
+      font-size: 0.8rem; color: var(--terracotta-dark);
+      margin-bottom: 1.25rem;
+      font-weight: 600;
+    }
+    .hero-eyebrow .dot { width: 0.5rem; height: 0.5rem; border-radius: 50%; background: var(--terracotta); }
+    .hero h1 { font-size: 2.4rem; margin-bottom: 1.1rem; color: var(--ink); }
+    @media (min-width: 640px) { .hero h1 { font-size: 3.2rem; } }
+    @media (min-width: 1024px) { .hero h1 { font-size: 3.9rem; } }
+    .hero .hero-sub { font-size: 1.05rem; color: var(--ink-soft); max-width: 38rem; margin-bottom: 1.25rem; }
+    @media (min-width: 640px) { .hero .hero-sub { font-size: 1.15rem; } }
+    .hero-region { font-size: 0.95rem; color: var(--ink-muted); margin-bottom: 1.8rem; font-style: italic; }
+
+    .hero-ctas { display: flex; flex-direction: column; gap: 0.75rem; margin-bottom: 1.8rem; }
+    @media (min-width: 640px) { .hero-ctas { flex-direction: row; gap: 1rem; } }
+
+    .hero-trust { display: flex; flex-wrap: wrap; gap: 0.75rem 1.5rem; font-size: 0.88rem; color: var(--ink-soft); }
+    .hero-trust span { display: inline-flex; align-items: center; gap: 0.45rem; }
+    .check-icon { width: 1rem; height: 1rem; flex-shrink: 0; color: var(--terracotta); }
+
+    .hero-photo-wrap { display: none; }
+    @media (min-width: 1024px) { .hero-photo-wrap { display: block; } }
+    .hero-photo { position: relative; max-width: 22rem; margin: 0 auto; }
+    .hero-photo img, .hero-photo picture { width: 100%; height: auto; display: block; }
+
+    /* LOGO STRIP */
+    .logo-strip {
+      background: var(--cream); color: var(--terracotta-dark);
+      border-top: 1px solid var(--ink-line);
+      border-bottom: 1px solid var(--ink-line);
+      padding: 2.5rem 0;
+    }
+    .logo-strip-label {
+      font-size: 0.74rem; text-transform: uppercase; letter-spacing: 0.18em;
+      color: var(--terracotta); font-weight: 700; text-align: center;
+      margin-bottom: 1.5rem;
+    }
+    .logo-strip-logos {
+      display: flex; flex-wrap: wrap; justify-content: center; align-items: center;
+      gap: 2rem 3rem;
+    }
+    @media (min-width: 640px) { .logo-strip-logos { gap: 2.5rem 4rem; } }
+    .partner-logo {
+      display: block; width: auto;
+      filter: grayscale(1) brightness(0.55);
+      opacity: 0.7;
+      transition: filter 0.2s ease, opacity 0.2s ease;
+    }
+    .partner-logo:hover { filter: grayscale(0) brightness(1); opacity: 1; }
+    .partner-logo--wordmark { height: 30px; }
+    .partner-logo--icon { height: 46px; }
+    .logo-strip-secondary {
+      text-align: center; margin-top: 1.75rem;
+      font-size: 0.82rem; color: rgba(184,101,74,0.72); font-weight: 500;
+    }
+
+    /* GENERIC SECTION */
+    section.block { padding: 3.5rem 0; }
+    @media (min-width: 640px) { section.block { padding: 5rem 0; } }
+    section.block-tight { padding: 3rem 0; }
+    @media (min-width: 640px) { section.block-tight { padding: 4rem 0; } }
+
+    .section-head { max-width: 44rem; margin-bottom: 2.5rem; }
+    .section-head.center { margin: 0 auto 2.5rem; text-align: center; }
+    .section-head h2 { font-size: 2rem; margin-bottom: 0.85rem; }
+    @media (min-width: 640px) { .section-head h2 { font-size: 2.5rem; } }
+    @media (min-width: 1024px) { .section-head h2 { font-size: 3rem; } }
+    .section-head p { color: var(--ink-soft); font-size: 1.02rem; }
+
+    .bg-ink { background: var(--terracotta); color: #fff; }
+    .bg-bg { background: var(--ink-bg); }
+
+    /* PROBLEM SECTION */
+    .problem-grid { display: grid; gap: 1.25rem; }
+    @media (min-width: 900px) { .problem-grid { grid-template-columns: repeat(3, 1fr); } }
+    .problem-card {
+      background: #fff; border: 1px solid var(--ink-line);
+      border-radius: 14px; padding: 1.6rem 1.5rem;
+      border-top: 3px solid var(--terracotta);
+    }
+    .problem-card h3 { font-size: 1.3rem; margin-bottom: 0.65rem; color: var(--ink); }
+    .problem-card p { color: var(--ink-soft); font-size: 0.96rem; }
+
+    /* MEET / ABOUT SECTION */
+    .meet-grid { display: grid; gap: 2.5rem; align-items: center; }
+    @media (min-width: 900px) { .meet-grid { grid-template-columns: 5fr 7fr; gap: 3.5rem; } }
+    .meet-photo { position: relative; max-width: 22rem; margin: 0 auto; }
+    .meet-photo img { width: 100%; height: auto; border-radius: 18px; box-shadow: 0 18px 40px rgba(184,101,74,0.18); }
+    .meet-photo::before {
+      content: ''; position: absolute; inset: -14px -14px 14px 14px;
+      border: 2px solid var(--terracotta); border-radius: 22px;
+      z-index: -1; opacity: 0.6;
+    }
+    .meet-copy h2 { font-size: 2rem; margin-bottom: 1rem; }
+    @media (min-width: 640px) { .meet-copy h2 { font-size: 2.4rem; } }
+    .meet-copy p { color: var(--ink-soft); font-size: 1.02rem; margin-bottom: 1rem; }
+    .meet-credentials {
+      margin-top: 1.5rem;
+      font-size: 0.92rem; color: var(--terracotta-dark);
+      line-height: 1.7;
+    }
+    .meet-credentials strong { font-weight: 600; }
+    .meet-credentials .sep { color: rgba(184,101,74,0.4); margin: 0 0.45rem; }
+
+    /* TRADE TYPE CARDS */
+    .practice-grid { display: grid; gap: 1rem; }
+    @media (min-width: 640px) { .practice-grid { grid-template-columns: repeat(2, 1fr); } }
+    @media (min-width: 1024px) { .practice-grid { grid-template-columns: repeat(3, 1fr); } }
+    .practice-card {
+      background: #fff; border: 1px solid var(--ink-line); border-radius: 12px;
+      padding: 1.4rem 1.4rem; transition: transform 0.18s ease, border-color 0.18s ease, background 0.18s ease;
+    }
+    .practice-card:hover { border-color: var(--terracotta); background: var(--cream); transform: translateY(-2px); }
+    .practice-card h3 { font-size: 1.2rem; margin-bottom: 0.4rem; color: var(--ink); }
+    .practice-card p { font-size: 0.92rem; color: var(--ink-soft); }
+    .practice-card.featured { border-top: 3px solid var(--terracotta); }
+
+    /* SERVICE CARDS */
+    .svc-grid { display: grid; gap: 1rem; }
+    @media (min-width: 640px) { .svc-grid { grid-template-columns: repeat(2, 1fr); } }
+    @media (min-width: 1024px) { .svc-grid { grid-template-columns: repeat(4, 1fr); } }
+    .svc-card {
+      background: #fff; border: 1px solid var(--ink-line); border-radius: 12px;
+      padding: 1.5rem 1.35rem; border-left: 3px solid var(--terracotta);
+      transition: transform 0.18s ease, background 0.18s ease;
+    }
+    .svc-card:hover { background: var(--cream); transform: translateY(-2px); }
+    .svc-card .svc-tag {
+      display: inline-block; font-size: 0.7rem; font-weight: 700; letter-spacing: 0.1em;
+      text-transform: uppercase; color: var(--terracotta); margin-bottom: 0.55rem;
+    }
+    .svc-card h3 { font-size: 1.15rem; margin-bottom: 0.55rem; color: var(--ink); }
+    .svc-card p { color: var(--ink-soft); font-size: 0.92rem; }
+
+    /* DIFFERENCE STRIP - dark */
+    .diff-grid { display: grid; gap: 1rem; margin-top: 2.5rem; }
+    @media (min-width: 640px) { .diff-grid { grid-template-columns: repeat(2, 1fr); } }
+    @media (min-width: 1024px) { .diff-grid { grid-template-columns: repeat(4, 1fr); } }
+    .diff-card {
+      background: rgba(255,255,255,0.10); border: 1px solid rgba(255,255,255,0.18);
+      border-top: 2px solid rgba(253,240,230,0.55);
+      border-radius: 14px; padding: 1.4rem 1.3rem;
+      backdrop-filter: blur(2px);
+    }
+    .diff-card .num {
+      display: inline-block; font-family: 'Fraunces', serif; font-size: 1rem;
+      color: var(--cream); margin-bottom: 0.6rem; letter-spacing: 0.04em;
+    }
+    .diff-card h3 { font-size: 1.18rem; color: #fff; margin-bottom: 0.5rem; }
+    .diff-card p { color: rgba(255,255,255,0.85); font-size: 0.9rem; }
+
+    /* PROCESS */
+    .process-grid { display: grid; gap: 1.75rem; }
+    @media (min-width: 640px) { .process-grid { grid-template-columns: repeat(3, 1fr); } }
+    .process-card {
+      background: #fff; border: 1px solid var(--ink-line); border-radius: 16px;
+      overflow: hidden;
+      box-shadow: 0 4px 16px rgba(184,101,74,0.06);
+    }
+    .process-card-img { aspect-ratio: 16/9; overflow: hidden; background: var(--cream); }
+    @media (min-width: 640px) { .process-card-img { aspect-ratio: 4/3; } }
+    .process-card-img img { width: 100%; height: 100%; object-fit: cover; display: block; }
+    .process-card-body { padding: 1.4rem 1.5rem 1.6rem; }
+    .step-num {
+      display: inline-flex; align-items: center; justify-content: center;
+      width: 2.75rem; height: 2.75rem; border-radius: 50%;
+      background: var(--terracotta-soft); color: var(--terracotta-dark);
+      font-weight: 700; font-size: 0.95rem; margin-bottom: 1rem;
+      font-family: 'Inter', sans-serif;
+    }
+    .process-card h3 { font-size: 1.25rem; margin-bottom: 0.5rem; color: var(--ink); }
+    .process-card p { color: var(--ink-soft); font-size: 0.95rem; }
+
+    /* FINAL CTA */
+    .final-cta {
+      background: linear-gradient(135deg, var(--terracotta) 0%, var(--terracotta-dark) 100%);
+      color: #fff;
+      position: relative;
+      overflow: hidden;
+      padding-top: 2.5rem; padding-bottom: 2.5rem;
+    }
+    @media (min-width: 640px) { .final-cta { padding-top: 5rem; padding-bottom: 5rem; } }
+    .final-cta::after {
+      content: ''; position: absolute; inset: 0;
+      background-image: radial-gradient(circle at 85% 50%, rgba(253,240,230,0.10) 0, transparent 45%);
+      pointer-events: none;
+    }
+    .final-cta .container { text-align: center; position: relative; z-index: 1; }
+    .final-cta h2 { font-size: 2.2rem; margin-bottom: 1rem; color: #fff; }
+    @media (min-width: 640px) { .final-cta h2 { font-size: 2.8rem; } }
+    .final-cta p { color: rgba(255,255,255,0.94); font-size: 1.05rem; margin-bottom: 1.8rem; max-width: 40rem; margin-left: auto; margin-right: auto; }
+    .final-cta-buttons { display: flex; flex-direction: column; gap: 0.75rem; justify-content: center; align-items: center; }
+    @media (min-width: 640px) { .final-cta-buttons { flex-direction: row; gap: 1rem; } }
+    .final-cta .btn-outline-light { border-color: var(--cream); color: var(--cream); }
+    .final-cta .btn-outline-light:hover { background: var(--cream); color: var(--terracotta-dark); border-color: var(--cream); }
+    .final-cta-note { margin-top: 1.8rem; font-size: 0.92rem; color: rgba(255,255,255,0.82); }
+
+    /* PRICE FLOOR */
+    .price-floor {
+      margin-top: 1.1rem; font-size: 0.88rem;
+      color: var(--terracotta-dark); font-style: italic;
+      max-width: 36rem; margin-left: auto; margin-right: auto;
+    }
+    .price-floor strong { font-style: normal; }
+
+    /* QUICK CHAT FORM */
+    .quote-form-card {
+      background: #fff; border: 1px solid var(--ink-line); border-radius: 14px;
+      padding: 1.75rem;
+      box-shadow: 0 1px 2px rgba(10,10,10,0.04), 0 12px 32px rgba(10,10,10,0.07);
+      max-width: 36rem; margin: 0 auto;
+    }
+    @media (min-width: 640px) { .quote-form-card { padding: 2.25rem; } }
+    .form-row { display: grid; gap: 1rem; }
+    @media (min-width: 640px) { .form-row.two-col { grid-template-columns: 1fr 1fr; } }
+    .form-field { display: flex; flex-direction: column; gap: 0.4rem; margin-bottom: 1rem; }
+    .form-field label { font-size: 0.88rem; font-weight: 600; color: var(--ink); }
+    .form-field label .req { color: var(--terracotta); }
+    .form-field label .opt { color: var(--ink-muted); font-weight: 400; }
+    .quote-input {
+      width: 100%; padding: 0.85rem 1rem;
+      border: 1px solid var(--ink-line); border-radius: 8px;
+      font-size: 1rem; background: #fff; color: var(--ink);
+      font-family: inherit;
+      transition: border-color 0.15s ease, box-shadow 0.15s ease;
+    }
+    .quote-input:focus {
+      outline: none; border-color: var(--blue);
+      box-shadow: 0 0 0 3px rgba(123,169,192,0.22);
+    }
+    select.quote-input { appearance: none; background-image: linear-gradient(45deg, transparent 50%, var(--ink-soft) 50%), linear-gradient(135deg, var(--ink-soft) 50%, transparent 50%); background-position: calc(100% - 18px) 50%, calc(100% - 13px) 50%; background-size: 5px 5px, 5px 5px; background-repeat: no-repeat; padding-right: 2.5rem; }
+    textarea.quote-input { resize: vertical; min-height: 5rem; }
+    .form-privacy {
+      font-size: 0.8rem; color: var(--ink-muted);
+      margin-top: 0.9rem; text-align: center;
+      display: flex; align-items: center; justify-content: center; gap: 0.4rem;
+    }
+    .form-privacy svg { width: 0.9rem; height: 0.9rem; flex-shrink: 0; }
+
+    /* FAQ */
+    .faq-wrap { max-width: 48rem; margin: 0 auto; }
+    .faq-card {
+      background: #fff; border: 1px solid var(--ink-line); border-radius: 14px;
+      padding: 0 1.5rem;
+      box-shadow: 0 1px 2px rgba(10,10,10,0.04), 0 12px 32px rgba(10,10,10,0.05);
+    }
+    @media (min-width: 640px) { .faq-card { padding: 0 2.25rem; } }
+    .faq-item { border-bottom: 1px solid var(--ink-line); }
+    .faq-item:last-child { border-bottom: none; }
+    .faq-item summary {
+      display: flex; align-items: center; justify-content: space-between; gap: 1.5rem;
+      padding: 1.4rem 0; cursor: pointer; list-style: none;
+      font-family: 'Fraunces', serif; font-size: 1.15rem; font-weight: 600; color: var(--ink);
+    }
+    .faq-item summary::-webkit-details-marker { display: none; }
+    .faq-icon {
+      flex-shrink: 0; width: 1.5rem; height: 1.5rem;
+      display: inline-flex; align-items: center; justify-content: center;
+      color: var(--terracotta); font-size: 1.6rem; font-weight: 400; line-height: 1;
+      transition: transform 0.2s ease;
+    }
+    .faq-item[open] .faq-icon { transform: rotate(45deg); }
+    .faq-item p { padding: 0 0 1.4rem 0; color: var(--ink-soft); font-size: 0.98rem; }
+
+    /* FOOTER */
+    .site-footer {
+      background: var(--terracotta); color: rgba(253,240,230,0.85);
+      padding: 2.5rem 0 6rem;
+    }
+    @media (min-width: 640px) { .site-footer { padding: 2.5rem 0 2.5rem; } }
+    .footer-top {
+      display: flex; flex-direction: column; gap: 1.5rem;
+      align-items: flex-start; justify-content: space-between;
+      padding-bottom: 1.5rem; border-bottom: 1px solid rgba(253,240,230,0.18);
+    }
+    @media (min-width: 640px) { .footer-top { flex-direction: row; align-items: center; } }
+    .footer-brand h4 { font-family: 'Fraunces', serif; color: var(--cream); font-size: 1.5rem; margin-bottom: 0.25rem; font-weight: 600; }
+    .footer-brand p { font-size: 0.9rem; color: rgba(253,240,230,0.72); }
+    .footer-contact { display: flex; flex-direction: column; gap: 0.35rem; font-size: 0.92rem; }
+    @media (min-width: 640px) { .footer-contact { text-align: right; } }
+    .footer-contact a { color: var(--cream); }
+    .footer-contact a:hover { color: #fff; }
+    .footer-links {
+      display: flex; flex-wrap: wrap; gap: 0.6rem 1.5rem;
+      padding: 1.5rem 0; font-size: 0.92rem;
+      border-bottom: 1px solid rgba(253,240,230,0.18);
+    }
+    .footer-links a { color: rgba(253,240,230,0.85); }
+    .footer-links a:hover { color: #fff; }
+    .footer-bottom { margin-top: 1.5rem; text-align: center; font-size: 0.82rem; color: rgba(253,240,230,0.65); }
+
+    /* MOBILE STICKY CTA */
+    .mobile-cta {
+      position: fixed; bottom: 0; left: 0; right: 0; z-index: 40;
+      background: var(--terracotta); border-top: 1px solid rgba(253,240,230,0.15);
+      box-shadow: 0 -4px 20px rgba(0,0,0,0.18);
+      display: grid; grid-template-columns: 1fr 1fr;
+    }
+    @media (min-width: 640px) { .mobile-cta { display: none; } }
+    .mobile-cta a {
+      display: flex; align-items: center; justify-content: center; gap: 0.5rem;
+      padding: 1rem; color: var(--cream); font-weight: 600; font-size: 0.92rem;
+    }
+    .mobile-cta a + a { background: var(--blue); color: #fff; }
+    .mobile-cta a svg { width: 1rem; height: 1rem; color: var(--cream); }
+    .mobile-cta a + a svg { color: #fff; }
+  </style>
+</head>
+<body>
+
+  <header id="site-header" class="site-header">
+    <div class="header-pill">
+      <div class="header-inner">
+        <a href="#top" class="logo-wrap" aria-label="True Tally Bookkeeping">
+          <span class="logo-mark"><img src="../Assets/Logo.avif" alt="True Tally" width="40" height="40"></span>
+          <span class="logo-text">True Tally<small>Bookkeeping</small></span>
+        </a>
+
+        <nav class="nav-links" aria-label="Primary">
+          <a href="#about">About us</a>
+          <a href="#services">Services</a>
+          <a href="#difference">Why us</a>
+          <a href="#reviews">Testimonials</a>
+          <a href="#contact">Contact</a>
+        </nav>
+
+        <div class="header-cta">
+          <a href="#quick-chat" class="btn btn-primary btn-sm">Get Started</a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main id="top">
+
+    <!-- HERO -->
+    <section class="hero">
+      <div class="container hero-inner">
+        <div>
+          <div class="hero-eyebrow">
+            <span class="dot"></span>
+            Builders · Electricians · Plumbers · Carpenters · Subbies
+          </div>
+          <h1>Stop Doing the Books at Midnight. <span style="color: var(--terracotta);">We'll Sort Your Trade.</span></h1>
+          <p class="hero-sub">Most bookkeepers don't get how a trade actually runs, subbies, progress claims, cash flow, tools and vehicle costs. We do, and we'll take the paperwork off your hands so you can stay on the tools.</p>
+          <p class="hero-region">Geelong-based, servicing sole-trader tradies across Victoria.</p>
+
+          <div class="hero-ctas">
+            <a href="#quick-chat" class="btn btn-primary">Book My Free Discovery Call</a>
+            <a href="#process" class="btn btn-outline-light">How It Works</a>
+          </div>
+
+          <div class="hero-trust">
+            <span><svg class="check-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"/></svg>$300/mo ex BAS</span>
+            <span><svg class="check-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"/></svg>Unlimited Q&amp;A calls</span>
+            <span><svg class="check-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"/></svg>Fixed monthly fee</span>
+            <span><svg class="check-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"/></svg>Registered BAS Agent</span>
+          </div>
+        </div>
+
+        <div class="hero-photo-wrap">
+          <div class="hero-photo">
+            <picture>
+              <source srcset="../Assets/hero-image.avif" type="image/avif">
+              <img src="../Assets/hero-image.jpg" alt="Tiffany, True Tally Bookkeeping founder, working on a laptop" width="511" height="681" fetchpriority="high" decoding="async">
+            </picture>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- LOGO STRIP -->
+    <section class="logo-strip">
+      <div class="container">
+        <p class="logo-strip-label">We work with</p>
+        <div class="logo-strip-logos">
+          <img src="../Assets/logos/xero.svg" alt="Xero" class="partner-logo partner-logo--icon" loading="lazy" decoding="async">
+          <img src="../Assets/logos/myob.svg" alt="MYOB" class="partner-logo partner-logo--icon" loading="lazy" decoding="async">
+        </div>
+        <p class="logo-strip-secondary">Also integrates with QuickBooks, ServiceM8, Tradify, AroFlo and simPRO</p>
+      </div>
+    </section>
+
+    <!-- QUICK CHAT FORM -->
+    <section id="quick-chat" class="block-tight bg-bg block">
+      <div class="container">
+        <div class="section-head center" style="margin-bottom: 2rem;">
+          <span class="chip" style="margin-bottom: 1rem;">Free 30-Min Discovery Call</span>
+          <h2>Book your free discovery call.</h2>
+          <p>Tell us about your trade. We'll call back to find out how you're set up, what's slipping through, and whether we're a fit. No sales pressure.</p>
+          <p class="price-floor">Sole-trader tradies are typically <strong>$300/month ex BAS</strong>, with unlimited Q&amp;A calls and personalised support. Scoped to your business after a free call.</p>
+        </div>
+
+        <!-- Form posts to the shared True Tally Formspree inbox (mjgzydne). The hidden `service` + `_subject` fields tag these as tradie leads so they're distinct from allied-health enquiries. TODO(James): if you want a separate Formspree form for the tradie stream, create it and swap the action URL + _next below. -->
+        <form action="https://formspree.io/f/mjgzydne" method="POST" class="quote-form-card" data-track-gclid>
+          <input type="hidden" name="_subject" value="New True Tally Tradie LP enquiry">
+          <input type="hidden" name="_source" value="lp.truetally.com.au/tradies">
+          <input type="hidden" name="_next" value="https://lp.truetally.com.au/tradies/thank-you.html">
+          <input type="hidden" name="service" value="Tradie Bookkeeping">
+          <input type="hidden" name="gclid" value="">
+          <input type="hidden" name="landing_url" value="">
+          <input type="hidden" name="referrer" value="">
+
+          <div class="form-row two-col">
+            <div class="form-field">
+              <label for="ft-name">Name <span class="req">*</span></label>
+              <input id="ft-name" name="name" type="text" required autocomplete="name" placeholder="Your name" class="quote-input">
+            </div>
+            <div class="form-field">
+              <label for="ft-phone">Phone <span class="req">*</span></label>
+              <input id="ft-phone" name="phone" type="tel" required autocomplete="tel" inputmode="tel" placeholder="04XX XXX XXX" class="quote-input">
+            </div>
+          </div>
+
+          <div class="form-field">
+            <label for="ft-email">Email <span class="req">*</span></label>
+            <input id="ft-email" name="email" type="email" required autocomplete="email" placeholder="you@yourtrade.com.au" class="quote-input">
+          </div>
+
+          <div class="form-field">
+            <label for="ft-type">Your trade <span class="req">*</span></label>
+            <select id="ft-type" name="trade_type" required class="quote-input">
+              <option value="" disabled selected>Select one</option>
+              <option>Building / Construction</option>
+              <option>Electrical</option>
+              <option>Plumbing / Gas</option>
+              <option>Carpentry / Joinery</option>
+              <option>Painting / Plastering</option>
+              <option>Landscaping / Earthworks</option>
+              <option>HVAC / Refrigeration</option>
+              <option>Other trade</option>
+            </select>
+          </div>
+
+          <div class="form-field" style="margin-bottom: 0;">
+            <label for="ft-message">What's on your mind? <span class="opt">(optional)</span></label>
+            <textarea id="ft-message" name="message" rows="3" placeholder="e.g. BAS is behind, drowning in receipts, need help with subbies and TPAR, want to know which jobs make money..." class="quote-input"></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-primary" style="margin-top: 1.25rem; width: 100%;">Request My Free Discovery Call</button>
+
+          <p class="form-privacy">
+            <svg fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/></svg>
+            Free, no-obligation discovery call. Your details stay private.
+          </p>
+        </form>
+      </div>
+    </section>
+
+    <!-- PROBLEM SECTION -->
+    <section id="about" class="block bg-bg">
+      <div class="container">
+        <div class="section-head">
+          <span class="chip" style="margin-bottom: 1rem;">The Problem</span>
+          <h2>If your bookkeeper has never costed a job, <span style="color: var(--terracotta);">your numbers are guesswork.</span></h2>
+          <p>BAS deadlines, GST on materials and labour, subbies and PAYG, super, TPAR, and no real idea which jobs actually made money. Most bookkeepers aren't set up for any of it. We are.</p>
+        </div>
+
+        <div class="problem-grid">
+          <div class="problem-card">
+            <h3>BAS creeps up while you're on site</h3>
+            <p>Quarterly BAS, GST split across materials and labour, and cash flow that lags the work you've already done. Miss the timing and you're paying the ATO money you've already spent on the next job.</p>
+          </div>
+          <div class="problem-card">
+            <h3>Subbies, PAYG and super are a minefield</h3>
+            <p>Is that worker a subbie or an employee? PAYG withholding, super guarantee, and the Taxable Payments Annual Report (TPAR) all hang off getting it right. Get it wrong and the ATO comes knocking.</p>
+          </div>
+          <div class="problem-card">
+            <h3>You don't know which jobs actually made money</h3>
+            <p>Materials, labour, fuel, tools and equipment all eat your margin. Without job-costing, the busy jobs feel profitable and the quiet ones hide the losses. Guesswork is expensive.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- MEET TIFFANY -->
+    <section class="block">
+      <div class="container">
+        <div class="meet-grid">
+          <div class="meet-photo">
+            <img src="../Assets/download-3.avif" alt="Tiffany of True Tally Bookkeeping at her desk" width="524" height="524" loading="lazy" decoding="async">
+          </div>
+          <div class="meet-copy">
+            <span class="chip" style="margin-bottom: 1rem;">Meet your bookkeeper</span>
+            <h2>Bookkeeping that actually understands a trade business.</h2>
+            <p>Tradies deserve a bookkeeper who gets how the work really runs, subbies, progress claims, retentions, vehicle and tool costs, not a generalist who only shows up at BAS time.</p>
+            <p>That's why True Tally takes on a small number of clients at a time, learns how your business actually works, and stays in regular contact. Got a question about a job, a quote or the ATO? Pick up the phone, that's what the unlimited Q&amp;A calls are for.</p>
+            <p>We're not the cheapest bookkeeper going around, and we're not trying to be. True Tally is built for tradies who'd rather pay to have it done right than lose a weekend to the paperwork.</p>
+            <p class="meet-credentials">
+              <strong>Registered BAS Agent</strong><span class="sep">·</span><strong>Certified Xero Advisor</strong><span class="sep">·</span><strong>Unlimited Q&amp;A support</strong>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- WHO WE WORK WITH -->
+    <section class="block">
+      <div class="container">
+        <div class="section-head">
+          <span class="chip" style="margin-bottom: 1rem;">Who we work with</span>
+          <h2>Built for sole traders and small crews.</h2>
+          <p>If you're on the tools and running the business out of your ute and your phone, this is for you. We work with sole traders and small crews right across the trades.</p>
+        </div>
+
+        <div class="practice-grid">
+          <div class="practice-card featured">
+            <h3>Builders &amp; Construction</h3>
+            <p>Progress claims, retentions, subbies, materials vs labour GST.</p>
+          </div>
+          <div class="practice-card featured">
+            <h3>Electricians</h3>
+            <p>Job costing, materials markup, vehicle and tool deductions.</p>
+          </div>
+          <div class="practice-card featured">
+            <h3>Plumbers &amp; Gas</h3>
+            <p>Emergency vs scheduled work, on-charged materials, cash flow timing.</p>
+          </div>
+          <div class="practice-card">
+            <h3>Carpenters &amp; Joiners</h3>
+            <p>Deposits, staged invoicing, materials and workshop overheads.</p>
+          </div>
+          <div class="practice-card">
+            <h3>Painters &amp; Plasterers</h3>
+            <p>Per-job pricing, subbie crews, consumables tracking.</p>
+          </div>
+          <div class="practice-card">
+            <h3>Landscapers &amp; Earthworks</h3>
+            <p>Plant and equipment, fuel, subcontractors, seasonal cash flow.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- WHAT WE HANDLE -->
+    <section id="services" class="block bg-bg">
+      <div class="container">
+        <div class="section-head">
+          <span class="chip" style="margin-bottom: 1rem;">What we handle</span>
+          <h2>Everything between the job and the ATO.</h2>
+        </div>
+
+        <div class="svc-grid">
+          <div class="svc-card">
+            <span class="svc-tag">Compliance</span>
+            <h3>BAS &amp; GST Lodgement</h3>
+            <p>We keep your GST clean across materials and labour and lodge your BAS on time, every quarter. True Tally has a registered BAS Agent on the team.</p>
+          </div>
+          <div class="svc-card">
+            <span class="svc-tag">Cash Flow</span>
+            <h3>Invoicing &amp; Getting Paid</h3>
+            <p>We keep on top of who owes you what and run reminders on overdue invoices so you get paid faster and stop carrying clients on your own cash.</p>
+          </div>
+          <div class="svc-card">
+            <span class="svc-tag">Payroll</span>
+            <h3>Payroll, STP &amp; Super</h3>
+            <p>Single Touch Payroll, super guarantee and award rates for your employees and apprentices, lodged and paid on time.</p>
+          </div>
+          <div class="svc-card">
+            <span class="svc-tag">Subcontractors</span>
+            <h3>Subbies, PAYG &amp; TPAR</h3>
+            <p>Subcontractor vs employee, PAYG withholding, and your Taxable Payments Annual Report prepared and lodged, so using subbies doesn't bite you later.</p>
+          </div>
+          <div class="svc-card">
+            <span class="svc-tag">Setup</span>
+            <h3>Xero &amp; MYOB Setup</h3>
+            <p>We set up Xero or MYOB for your trade and connect ServiceM8, Tradify, AroFlo or simPRO so quotes and jobs flow straight through to your books.</p>
+          </div>
+          <div class="svc-card">
+            <span class="svc-tag">Profit</span>
+            <h3>Job Costing &amp; Profit per Job</h3>
+            <p>We track materials, labour and overheads against each job so you can see which work actually makes money, and price the next quote with real numbers.</p>
+          </div>
+          <div class="svc-card">
+            <span class="svc-tag">Tax Time</span>
+            <h3>EOFY Tax-Ready Books</h3>
+            <p>Clean, reconciled books handed to your accountant at year-end, so your tax return is quick, cheap and you claim everything you're owed.</p>
+          </div>
+          <div class="svc-card">
+            <span class="svc-tag">Support</span>
+            <h3>Monthly Reporting &amp; Unlimited Q&amp;A</h3>
+            <p>A simple monthly snapshot of where you stand, plus unlimited Q&amp;A calls, ask us anything about your numbers, a quote or an ATO letter, any time.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- THE TRUE TALLY DIFFERENCE -->
+    <section id="difference" class="block bg-ink">
+      <div class="container">
+        <div class="section-head" style="max-width: 50rem;">
+          <span class="chip chip-on-dark" style="margin-bottom: 1rem;">The True Tally Difference</span>
+          <h2 style="color: #fff;">We're not a bookkeeper who only appears at BAS time.</h2>
+          <p style="color: rgba(255,255,255,0.78);">Specialist for trades, not generalist. On the phone, not in a queue. Year-round, not seasonal.</p>
+        </div>
+
+        <div class="diff-grid">
+          <div class="diff-card">
+            <span class="num">01</span>
+            <h3>Unlimited Q&amp;A calls</h3>
+            <p>Got a question about a job, a quote or an ATO letter? Pick up the phone. No clock running, no waiting for BAS time. That's the difference.</p>
+          </div>
+          <div class="diff-card">
+            <span class="num">02</span>
+            <h3>We talk trade, not jargon</h3>
+            <p>You'll always know where you stand in plain English. No accountant-speak, no being made to feel like the numbers are over your head.</p>
+          </div>
+          <div class="diff-card">
+            <span class="num">03</span>
+            <h3>Fixed monthly fee, no surprises</h3>
+            <p>$300/month ex BAS for sole traders, one predictable fee. No hourly billing anxiety, no invoice shock at the end of the month.</p>
+          </div>
+          <div class="diff-card">
+            <span class="num">04</span>
+            <h3>Tax-ready, year-round</h3>
+            <p>Your books stay current and reconciled all year, so EOFY is a non-event and you never scramble for receipts in July.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- HOW IT WORKS -->
+    <section id="process" class="block bg-bg">
+      <div class="container">
+        <div class="section-head center">
+          <span class="chip" style="margin-bottom: 1rem;">How it works</span>
+          <h2>Up and running in three steps.</h2>
+          <p>No lengthy onboarding. No tech setup on your end. We handle the transition.</p>
+        </div>
+
+        <div class="process-grid">
+          <div class="process-card">
+            <div class="process-card-img">
+              <img src="../Assets/download-4.avif" alt="True Tally discovery call across a table" width="412" height="275" loading="lazy" decoding="async">
+            </div>
+            <div class="process-card-body">
+              <div class="step-num">01</div>
+              <h3>Free 30-minute discovery call</h3>
+              <p>We learn how your trade is set up today, what's slipping through, and whether True Tally is a fit. No obligation, no sales pressure.</p>
+            </div>
+          </div>
+          <div class="process-card">
+            <div class="process-card-img">
+              <img src="../Assets/download-5.avif" alt="Xero file setup on a laptop" width="478" height="359" loading="lazy" decoding="async">
+            </div>
+            <div class="process-card-body">
+              <div class="step-num">02</div>
+              <h3>File setup &amp; catch-up</h3>
+              <p>We take over your Xero or MYOB file, connect your job app, sort your chart of accounts, and get everything reconciled and current, even if you're behind.</p>
+            </div>
+          </div>
+          <div class="process-card">
+            <div class="process-card-img">
+              <img src="../Assets/download-8.avif" alt="True Tally handshake confirming an ongoing bookkeeping engagement" width="528" height="308" loading="lazy" decoding="async">
+            </div>
+            <div class="process-card-body">
+              <div class="step-num">03</div>
+              <h3>Ongoing monthly bookkeeping</h3>
+              <p>Reconciliations, BAS, payroll, TPAR and unlimited Q&amp;A on a fixed monthly fee. You stay on the tools, we keep the books straight.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- GOOGLE REVIEWS -->
+    <section id="reviews" class="block">
+      <div class="container">
+        <div class="section-head center">
+          <span class="chip" style="margin-bottom: 1rem;">Testimonials</span>
+          <h2>What our clients say.</h2>
+          <p>Real Google reviews from the tradies and small businesses we work with.</p>
+        </div>
+        <!-- Elfsight Google Reviews | True Tally -->
+        <script src="https://elfsightcdn.com/platform.js" async></script>
+        <div class="elfsight-app-5f214942-eff5-40b4-97af-5e4590a39681" data-elfsight-app-lazy></div>
+      </div>
+    </section>
+
+    <!-- FINAL CTA -->
+    <section id="contact" class="block final-cta">
+      <div class="container">
+        <h2>Ready to get the books off your plate?</h2>
+        <p>Book a free 30-minute discovery call. We'll learn how your trade is set up, surface what's most worth a closer look, and you'll know whether we're a fit. No sales pressure.</p>
+        <div class="final-cta-buttons">
+          <a href="#quick-chat" class="btn btn-dark">Book My Free Discovery Call</a>
+          <a href="tel:+61421132796" data-conversion="call" class="btn btn-outline-light">Call 0421 132 796</a>
+        </div>
+        <p class="final-cta-note">Geelong-based. Servicing sole-trader tradies across Victoria.</p>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="block">
+      <div class="container">
+        <div class="section-head center">
+          <span class="chip" style="margin-bottom: 1rem;">Frequently asked</span>
+          <h2>Frequently asked questions.</h2>
+        </div>
+
+        <div class="faq-wrap">
+          <div class="faq-card">
+            <details class="faq-item">
+              <summary>Do I need to be based in Geelong? <span class="faq-icon">+</span></summary>
+              <p>No. We're Geelong-based but work with sole-trader tradies right across Victoria. Everything is handled digitally through Xero or MYOB and secure file sharing, with phone, text or video whenever it suits you on site.</p>
+            </details>
+            <details class="faq-item">
+              <summary>Do you handle subbies, PAYG and TPAR? <span class="faq-icon">+</span></summary>
+              <p>Yes. We sort out whether your workers are subbies or employees, handle PAYG withholding and super, and lodge your Taxable Payments Annual Report (TPAR) so the ATO side of using subcontractors is covered.</p>
+            </details>
+            <details class="faq-item">
+              <summary>Can you do my BAS and chase my unpaid invoices? <span class="faq-icon">+</span></summary>
+              <p>Yes. We lodge your BAS correctly, keep your GST clean across materials and labour, and stay on top of who owes you what so you're not doing it at 10pm. We can run invoice reminders so you get paid faster.</p>
+            </details>
+            <details class="faq-item">
+              <summary>What software do you use? <span class="faq-icon">+</span></summary>
+              <p>We work in Xero and MYOB, and we integrate with the job-management apps tradies actually use, ServiceM8, Tradify, AroFlo and simPRO, so your quotes, jobs and invoices flow through to your books without double handling.</p>
+            </details>
+            <details class="faq-item">
+              <summary>I've got a shoebox of receipts and I'm behind. Can you help? <span class="faq-icon">+</span></summary>
+              <p>That's most tradies when they come to us. We'll catch up your file, get everything reconciled and current, and put a simple system in place so you never fall behind again.</p>
+            </details>
+            <details class="faq-item">
+              <summary>How much does it cost? <span class="faq-icon">+</span></summary>
+              <p>Sole-trader tradies are typically $300 a month ex BAS, and that includes unlimited Q&amp;A calls, ask us anything about your numbers, any time. We scope a fixed monthly fee to your business after a free discovery call. No hourly rates, no surprise invoices.</p>
+            </details>
+            <details class="faq-item">
+              <summary>Do you do my tax return too? <span class="faq-icon">+</span></summary>
+              <p>We handle your day-to-day bookkeeping and BAS as a registered BAS Agent, and get your books tax-ready so your accountant's job is quick and cheap. If you don't have an accountant we can point you to one.</p>
+            </details>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <h4>True Tally Bookkeeping</h4>
+          <p>Geelong, Victoria · Servicing tradies across VIC</p>
+        </div>
+        <div class="footer-contact">
+          <a href="tel:+61421132796" data-conversion="call">&#128222; 0421 132 796</a>
+          <a href="mailto:info@truetally.com.au">&#9993; info@truetally.com.au</a>
+        </div>
+      </div>
+
+      <div class="footer-links">
+        <a href="#about">About us</a>
+        <a href="#services">Services</a>
+        <a href="#difference">Why us</a>
+        <a href="#reviews">Testimonials</a>
+        <a href="#contact">Contact</a>
+        <a href="#quick-chat">Book a Free Call &rarr;</a>
+      </div>
+
+      <p class="footer-bottom">&copy; <span id="year"></span> True Tally Bookkeeping. Registered BAS Agent. All prices exclude GST.</p>
+    </div>
+  </footer>
+
+  <!-- MOBILE STICKY CTA -->
+  <div class="mobile-cta">
+    <a href="tel:+61421132796" data-conversion="call">
+      <svg fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h2.28a1 1 0 01.95.68l1.5 4.5a1 1 0 01-.27 1.06L7.91 10.91a12.05 12.05 0 005.18 5.18l1.67-1.55a1 1 0 011.06-.27l4.5 1.5a1 1 0 01.68.95V19a2 2 0 01-2 2h-1C9.72 21 3 14.28 3 6V5z"/></svg>
+      Call
+    </a>
+    <a href="#quick-chat">
+      <svg fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"/></svg>
+      Discovery Call
+    </a>
+  </div>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    (function() {
+      var header = document.getElementById('site-header');
+      var lastScrollY = 0;
+      var ticking = false;
+      function onScroll() {
+        var currentScrollY = window.scrollY;
+        if (currentScrollY > lastScrollY && currentScrollY > 80) {
+          header.style.transform = 'translateY(-100%)';
+        } else {
+          header.style.transform = 'translateY(0)';
+        }
+        lastScrollY = currentScrollY;
+        ticking = false;
+      }
+      window.addEventListener('scroll', function() {
+        if (!ticking) { requestAnimationFrame(onScroll); ticking = true; }
+      });
+    })();
+
+    // Phone Call Lead conversion: fires when a tel: link with data-conversion="call" is clicked.
+    // Shares the same account + label as the allied-health LP (AW-17365131653 / uAZ1CIiRk7IcEIXDq9hA).
+    document.querySelectorAll('[data-conversion="call"]').forEach(function(el) {
+      el.addEventListener('click', function() {
+        if (typeof gtag === 'function') {
+          gtag('event', 'conversion', {
+            'send_to': 'AW-17365131653/uAZ1CIiRk7IcEIXDq9hA',
+            'value': 300.0,
+            'currency': 'AUD'
+          });
+        }
+      });
+    });
+
+    // Form Lead conversion: fires on thank-you.html page load (not here).
+    // Formspree redirects to thank-you.html only on successful submission - the confirmed-success signal.
+
+    // GCLID capture for offline conversion attribution.
+    // Priority: ?gclid= URL param (current click) -> sessionStorage (stored on landing) -> _gcl_aw cookie (set by gtag.js).
+    (function() {
+      function getParam(name) {
+        var m = window.location.search.match(new RegExp('[?&]' + name + '=([^&]+)'));
+        return m ? decodeURIComponent(m[1]) : '';
+      }
+      function getCookieGclid() {
+        var m = document.cookie.match(/(?:^|;\s*)_gcl_aw=([^;]+)/);
+        if (!m) return '';
+        var parts = decodeURIComponent(m[1]).split('.');
+        return parts.length >= 3 ? parts.slice(2).join('.') : '';
+      }
+      var gclid = getParam('gclid');
+      if (gclid) {
+        try { sessionStorage.setItem('ga_gclid', gclid); } catch(e) {}
+      } else {
+        try { gclid = sessionStorage.getItem('ga_gclid') || ''; } catch(e) {}
+        if (!gclid) gclid = getCookieGclid();
+      }
+      var landingUrl = window.location.href;
+      var referrer = document.referrer || '';
+      document.querySelectorAll('form[data-track-gclid]').forEach(function(form) {
+        var g = form.querySelector('input[name="gclid"]');
+        var l = form.querySelector('input[name="landing_url"]');
+        var r = form.querySelector('input[name="referrer"]');
+        if (g) g.value = gclid;
+        if (l) l.value = landingUrl;
+        if (r) r.value = referrer;
+        form.addEventListener('submit', function() {
+          if (g) g.value = gclid || getCookieGclid();
+        });
+      });
+    })();
+  </script>
+</body>
+</html>
